@@ -5,11 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bin": {
+    "funnygame-cli": "./index.js"
+  },
   "dependencies": {
     "chalk": "^5.1.2",
     "chalk-animation": "^2.0.3",
